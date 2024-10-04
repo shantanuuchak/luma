@@ -15,14 +15,38 @@
 
     <link rel="stylesheet" href="index.css" />
   </head>
-  <body>
+  <body class="bg-slate-50">
+    <!-- Header Section -->
     <header class="flex justify-between p-4">
-      <div>I</div>
+      <div class="">
+        <p>h</p>
+      </div>
       <nav class="flex gap-4">
         <a href="#">18:01 GMT+5:30</a>
         <a href="#">Explore Events</a>
         <a href="#">Sign In</a>
       </nav>
     </header>
+
+    <!-- Main Section -->
+    <main class="flex g-3 container mx-auto flex-row md:flex-col">
+      <section class="w-1/2 flex flex-col justify-center">
+        <h1 class="text-6xl">Delightful events start here.</h1>
+        <p>
+          Set up an event page, invite friends and sell tickets. Host a
+          memorable event today.
+        </p>
+        <button>Create your first event</button>
+      </section>
+      <section class="w-1/2">
+        <video
+          src="./phone-light.webm"
+          class="object-cover"
+          autoplay
+          muted
+          loop
+        ></video>
+      </section>
+    </main>
   </body>
 </html>
