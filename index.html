@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luma</title>
+    <title>Luma · Delightful Events Start Here</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
     <!-- Inter Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,14 +17,14 @@
 
     <link rel="stylesheet" href="index.css" />
   </head>
-  <body class="bg-slate-50">
+  <body class="bg-slate-50 dark:bg-[#161618] text-white">
     <!-- Header Section -->
     <header class="flex justify-between p-4">
       <div class="">
         <img src="/logo.svg" alt="Luma icon logo" />
       </div>
       <nav class="flex gap-4">
-        <a href="#">18:01 GMT+5:30</a>
+        <a href="#" class="hidden sm:block">18:01 GMT+5:30</a>
         <a href="#">Explore Events</a>
         <a href="#">Sign In</a>
       </nav>
@@ -30,14 +32,18 @@
 
     <!-- Main Section -->
     <main class="flex g-3 container mx-auto flex-col sm:flex-row">
-      <section class="w-1/2 flex flex-col justify-center">
+      <section class="w-1/2 flex flex-col items-start">
         <img src="/text-logo.svg" alt="Luma text logo" class="text-gray-600" />
         <h1 class="text-6xl">Delightful events start here.</h1>
         <p>
           Set up an event page, invite friends and sell tickets. Host a
           memorable event today.
         </p>
-        <button>Create your first event</button>
+        <button
+          class="bg-zinc-800 text-white font-medium capitalize rounded-md py-3 px-6 tracking-wide dark:bg-slate-100 text-black"
+        >
+          Create your first event
+        </button>
       </section>
       <section class="w-1/2">
         <video
