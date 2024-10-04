@@ -19,7 +19,7 @@
     <!-- Header Section -->
     <header class="flex justify-between p-4">
       <div class="">
-        <p>h</p>
+        <img src="/logo.svg" alt="Luma icon logo" />
       </div>
       <nav class="flex gap-4">
         <a href="#">18:01 GMT+5:30</a>
@@ -31,6 +31,7 @@
     <!-- Main Section -->
     <main class="flex g-3 container mx-auto flex-col sm:flex-row">
       <section class="w-1/2 flex flex-col justify-center">
+        <img src="/text-logo.svg" alt="Luma text logo" class="text-gray-600" />
         <h1 class="text-6xl">Delightful events start here.</h1>
         <p>
           Set up an event page, invite friends and sell tickets. Host a
@@ -50,9 +51,9 @@
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="container mx-auto border-t">
       <!-- Upper -->
-      <section class="flex">
+      <section class="flex justify-between p-4">
         <nav>
           <a href="#">Luma</a>
           <a href="#">What's new</a>
@@ -60,13 +61,32 @@
           <a href="#">Pricing</a>
           <a href="#">Help</a>
         </nav>
-        <nav></nav>
+        <nav>
+          <a href="#"><i class="ti ti-brand-google-play"></i></a>
+          <a href="#"><i class="ti ti-brand-appstore"></i></a>
+          <a href="#"><i class="ti ti-brand-x"></i></a>
+          <a href="#"><i class="ti ti-brand-instagram"></i></a>
+        </nav>
       </section>
       <!-- Lower -->
-      <section></section>
+      <section>
+        <ul class="flex px-4 gap-3">
+          <li>
+            <a href="#">Terms</a>
+          </li>
+          <li>
+            <a href="#">Privacy</a>
+          </li>
+          <li>
+            <a href="#">Security</a>
+          </li>
+        </ul>
+      </section>
     </footer>
 
-    <!-- Tabler Icons -->
-    <script src="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/icons-react/dist/index.umd.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
+    />
   </body>
 </html>
