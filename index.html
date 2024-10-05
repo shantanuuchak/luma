@@ -37,9 +37,7 @@
     </header>
 
     <!-- Main Section -->
-    <main
-      class="flex g-3 container mx-auto flex-col sm:flex-row h-screen xl:px-60"
-    >
+    <main class="flex g-3 container mx-auto flex-col sm:flex-row xl:px-60">
       <section
         class="flex flex-col items-center h-full mx-auto text-center sm:text-left sm:items-start"
       >
@@ -49,7 +47,26 @@
           class="text-gray-600 w-16"
         />
         <h1 class="text-5xl font-medium my-7">
-          Delightful events <br />start here.
+          Delightful events <br />
+          <span
+            class="bg-clip-text text-transparent"
+            style="
+              background: radial-gradient(
+                circle at top left,
+                #099ef1 0%,
+                #6863f8 18.82%,
+                #d84ffa 32.6%,
+                #f058c5 52.83%,
+                #ff4f90 68.03%,
+                #ff6558 87.66%,
+                #ff891f 100%
+              );
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            "
+          >
+            start here.
+          </span>
         </h1>
         <p class="text-gray-400 font-light">
           Set up an event page, invite friends and sell tickets. Host a
@@ -61,7 +78,7 @@
           Create your first event
         </button>
       </section>
-      <section class="h-screen">
+      <section class="mb-10">
         <video
           class="h-full w-full"
           src="./phone-light.webm"
@@ -73,11 +90,16 @@
     </main>
 
     <!-- Footer -->
-    <footer class="container mx-auto border-t">
+    <footer class="container mx-auto border-t text-gray-400 p-5 xl:px-60">
       <!-- Upper -->
-      <section class="flex justify-between p-4">
+      <section class="flex flex-wrap justify-between text-sm">
         <nav>
-          <a href="#">Luma</a>
+          <a href="#"
+            ><img
+              src="/text-logo.svg"
+              alt="Luma logo"
+              class="w-12 fill-gray-500 stroke-gray-400"
+          /></a>
           <a href="#">What's new</a>
           <a href="#">Discover</a>
           <a href="#">Pricing</a>
@@ -91,8 +113,8 @@
         </nav>
       </section>
       <!-- Lower -->
-      <section>
-        <ul class="flex px-4 gap-3">
+      <section class="text-xs my-5">
+        <ul class="flex gap-3">
           <li>
             <a href="#">Terms</a>
           </li>
