@@ -19,7 +19,7 @@
   </head>
   <body class="">
     <!-- Header Section -->
-    <header class="flex justify-between p-4 text-gray-400 text-sm">
+    <header class="flex justify-between p-3 text-gray-400 text-sm mb-8">
       <div class="">
         <i class="ti ti-location cursor-pointer"></i>
       </div>
@@ -37,28 +37,34 @@
     </header>
 
     <!-- Main Section -->
-    <main class="flex g-3 container mx-auto flex-col sm:flex-row">
-      <section class="w-1/2 flex flex-col items-between h-full">
+    <main
+      class="flex g-3 container mx-auto flex-col sm:flex-row h-screen xl:px-60"
+    >
+      <section
+        class="flex flex-col items-center h-full mx-auto text-center sm:text-left sm:items-start"
+      >
         <img
           src="/text-logo.svg"
           alt="Luma text logo"
-          class="text-gray-600 w-20"
+          class="text-gray-600 w-16"
         />
-        <h1 class="text-6xl">Delightful events start here.</h1>
-        <p>
+        <h1 class="text-5xl font-medium my-7">
+          Delightful events <br />start here.
+        </h1>
+        <p class="text-gray-400 font-light">
           Set up an event page, invite friends and sell tickets. Host a
           memorable event today.
         </p>
         <button
-          class="bg-zinc-800 text-white font-medium capitalize rounded-lg py-3 px-6 tracking-wide"
+          class="bg-zinc-800 text-white font-medium capitalize rounded-lg py-2 px-4 tracking-wide my-8"
         >
           Create your first event
         </button>
       </section>
-      <section class="w-1/2">
+      <section class="h-screen">
         <video
+          class="h-full w-full"
           src="./phone-light.webm"
-          class="object-cover"
           autoplay
           muted
           loop
