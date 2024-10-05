@@ -17,30 +17,40 @@
 
     <link rel="stylesheet" href="index.css" />
   </head>
-  <body class="bg-slate-50 dark:bg-[#161618] text-white">
+  <body class="">
     <!-- Header Section -->
-    <header class="flex justify-between p-4">
+    <header class="flex justify-between p-4 text-gray-400 text-sm">
       <div class="">
-        <img src="/logo.svg" alt="Luma icon logo" />
+        <i class="ti ti-location cursor-pointer"></i>
       </div>
-      <nav class="flex gap-4">
-        <a href="#" class="hidden sm:block">18:01 GMT+5:30</a>
-        <a href="#">Explore Events</a>
-        <a href="#">Sign In</a>
+      <nav class="flex gap-4 items-center justify-between">
+        <a href="#" class="hidden sm:block">4:53 PM GMT+5:30</a>
+        <a href="#" class="hover:text-black transition-all"
+          >Explore Events <i class="ti ti-arrow-up-right"></i
+        ></a>
+        <a
+          href="#"
+          class="bg-gray-100 text-gray-500 px-3 py-1 rounded-full font-medium hover:bg-neutral-600 hover:text-white"
+          >Sign In</a
+        >
       </nav>
     </header>
 
     <!-- Main Section -->
     <main class="flex g-3 container mx-auto flex-col sm:flex-row">
-      <section class="w-1/2 flex flex-col items-start">
-        <img src="/text-logo.svg" alt="Luma text logo" class="text-gray-600" />
+      <section class="w-1/2 flex flex-col items-between h-full">
+        <img
+          src="/text-logo.svg"
+          alt="Luma text logo"
+          class="text-gray-600 w-20"
+        />
         <h1 class="text-6xl">Delightful events start here.</h1>
         <p>
           Set up an event page, invite friends and sell tickets. Host a
           memorable event today.
         </p>
         <button
-          class="bg-zinc-800 text-white font-medium capitalize rounded-md py-3 px-6 tracking-wide dark:bg-slate-100 text-black"
+          class="bg-zinc-800 text-white font-medium capitalize rounded-lg py-3 px-6 tracking-wide"
         >
           Create your first event
         </button>
