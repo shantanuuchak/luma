@@ -1,6 +1,6 @@
-@import url(resets.css);
-@import url(fonts.css);
-@import url(utility.css);
+@import url(./resets.scss);
+@import url(./fonts.scss);
+@import url(./utility.scss);
 
 :root {
   --gray-white: rgba(255, 255, 255, 0.5);

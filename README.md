@@ -11,9 +11,8 @@ This project was inspired by the [LUMA](https://www.luma.co.uk/) event managemen
 ## Technologies
 
 - [Parcel](https://parceljs.org/)
-- [Sass](https://sass-lang.com/)
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Sass](https://sass-lang.com/)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Getting Started
