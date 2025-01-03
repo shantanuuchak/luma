@@ -25,13 +25,13 @@ This project was inspired by the [LUMA](https://www.luma.co.uk/) event managemen
 ### Installing
 
 ```bash
-npm install
+pnpm install
 ```
 
 ### Running
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 ## Contributing
