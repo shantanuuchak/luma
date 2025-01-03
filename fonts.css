@@ -1,0 +1,12 @@
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: #7a7adb;
+    background-image: linear-gradient(117deg, #602f60 0%, #170e13 74%);
+    color: var(--gray-white);
+    min-height: 100vh;
+  }
+  button {
+    font-family: inherit;
+  }
+  

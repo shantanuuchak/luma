@@ -3,134 +3,144 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luma · Delightful Events Start Here</title>
-
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <!-- Inter Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
+    <title>Luma · Delightful Events Start Here</title>
+    <meta name="title" content="Luma · Delightful Events Start Here" />
+    <meta
+      name="description"
+      content="From beautiful event pages to effortless invites and ticketing, Luma is all you need to host a memorable event."
     />
 
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body class="">
-    <!-- Header Section -->
-    <header class="flex justify-between p-3 text-gray-400 text-sm mb-8">
-      <div class="">
-        <i class="ti ti-location cursor-pointer"></i>
-      </div>
-      <nav class="flex gap-4 items-center justify-between">
-        <a href="#" class="hidden sm:block">4:53 PM GMT+5:30</a>
-        <a href="#" class="hover:text-black transition-all"
-          >Explore Events <i class="ti ti-arrow-up-right"></i
-        ></a>
-        <a
-          href="#"
-          class="bg-gray-100 text-gray-500 px-3 py-1 rounded-full font-medium hover:bg-neutral-600 hover:text-white"
-          >Sign In</a
-        >
-      </nav>
-    </header>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lumapp.netlify.app" />
+    <meta property="og:title" content="Luma · Delightful Events Start Here" />
+    <meta
+      property="og:description"
+      content="From beautiful event pages to effortless invites and ticketing, Luma is all you need to host a memorable event."
+    />
+    <meta property="og:image" content="https://i.ibb.co/L19cNXm/og.png" />
 
-    <!-- Main Section -->
-    <main class="flex g-3 container mx-auto flex-col sm:flex-row xl:px-60">
-      <section
-        class="flex flex-col items-center h-full mx-auto text-center sm:text-left sm:items-start"
-      >
-        <img
-          src="/text-logo.svg"
-          alt="Luma text logo"
-          class="text-gray-600 w-16"
-        />
-        <h1 class="text-5xl font-medium my-7">
-          Delightful events <br />
-          <span
-            class="bg-clip-text text-transparent"
-            style="
-              background: radial-gradient(
-                circle at top left,
-                #099ef1 0%,
-                #6863f8 18.82%,
-                #d84ffa 32.6%,
-                #f058c5 52.83%,
-                #ff4f90 68.03%,
-                #ff6558 87.66%,
-                #ff891f 100%
-              );
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-            "
-          >
-            start here.
-          </span>
-        </h1>
-        <p class="text-gray-400 font-light">
-          Set up an event page, invite friends and sell tickets. Host a
-          memorable event today.
-        </p>
-        <button
-          class="bg-zinc-800 text-white font-medium capitalize rounded-lg py-2 px-4 tracking-wide my-8"
-        >
-          Create your first event
-        </button>
-      </section>
-      <section class="mb-10">
-        <video
-          class="h-full w-full"
-          src="./phone-light.webm"
-          autoplay
-          muted
-          loop
-        ></video>
-      </section>
-    </main>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://lumapp.netlify.app" />
+    <meta
+      property="twitter:title"
+      content="Luma · Delightful Events Start Here"
+    />
+    <meta
+      property="twitter:description"
+      content="From beautiful event pages to effortless invites and ticketing, Luma is all you need to host a memorable event."
+    />
+    <meta property="twitter:image" content="https://i.ibb.co/L19cNXm/og.png" />
 
-    <!-- Footer -->
-    <footer class="container mx-auto border-t text-gray-400 p-5 xl:px-60">
-      <!-- Upper -->
-      <section class="flex flex-wrap justify-between text-sm">
-        <nav>
-          <a href="#"
-            ><img
-              src="/text-logo.svg"
-              alt="Luma logo"
-              class="w-12 fill-gray-500 stroke-gray-400"
-          /></a>
-          <a href="#">What's new</a>
-          <a href="#">Discover</a>
-          <a href="#">Pricing</a>
-          <a href="#">Help</a>
-        </nav>
-        <nav>
-          <a href="#"><i class="ti ti-brand-google-play"></i></a>
-          <a href="#"><i class="ti ti-brand-appstore"></i></a>
-          <a href="#"><i class="ti ti-brand-x"></i></a>
-          <a href="#"><i class="ti ti-brand-instagram"></i></a>
-        </nav>
-      </section>
-      <!-- Lower -->
-      <section class="text-xs my-5">
-        <ul class="flex gap-3">
-          <li>
-            <a href="#">Terms</a>
-          </li>
-          <li>
-            <a href="#">Privacy</a>
-          </li>
-          <li>
-            <a href="#">Security</a>
-          </li>
-        </ul>
-      </section>
-    </footer>
-
+    <!-- Icons: Tabler -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
     />
+
+    <!-- Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 
+        MARK: Header
+    -->
+    <header class="flex justify-between">
+      <svg
+        class="icon cursor"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 133 134"
+      >
+        <path
+          fill="currentColor"
+          d="M133 67C96.282 67 66.5 36.994 66.5 0c0 36.994-29.782 67-66.5 67 36.718 0 66.5 30.006 66.5 67 0-36.994 29.782-67 66.5-67"
+        ></path>
+      </svg>
+      <nav class="flex">
+        <p class="time">12:12 PM GMT+5:30</p>
+        <a href="#">Explore Events <i class="ti ti-arrow-up-right"></i></a>
+        <button class="cursor">Sign In</button>
+      </nav>
+    </header>
+
+    <!-- 
+        MARK: Main 
+    -->
+    <main class="flex justify-between">
+      <div class="left">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 724 264">
+          <path
+            d="M38.53 260.65H.43V27.86h38.1zm86.46 2.77c-42.25 0-66.48-22.96-66.48-63V89.33h38.1v108.28c0 23.61 8.7 32.39 32.12 32.39 30.35 0 42.73-14.54 42.73-50.17v-90.5h38.1v171.33h-36.54v-29.91c-4.99 22.98-27.12 32.67-48.03 32.67zm347.2-2.77H434.4V149.87c0-22.5-7.01-30.87-25.88-30.87-24.28 0-37.11 14.45-37.11 41.79v99.86h-37.79V149.87c0-21.93-7.23-30.87-24.94-30.87-31.59 0-38.05 32.96-38.05 41.79v99.86h-38.1V89.33h36.54v29.96c6.49-21.02 27.02-33.71 47.72-33.71 20.69 0 38.09 7.9 45.64 33.71 10.13-26.76 28.35-33.71 50.15-33.71 37.88 0 59.61 18.88 59.61 51.81v123.26h0zm76.65 2.77c-52.62 0-61.55-33.45-61.55-50.52 0-20.1 8.83-38.21 27.93-45.55 8.41-3.11 16.52-5.43 24.84-7.1 7.33-1.47 18.64-3.03 26.91-4.17l2.73-.38c14.38-2 29.67-9.21 29.67-18.62 0-16-20.51-18.39-32.74-18.39-13.87 0-23.64 3.57-27.53 10.05-3.49 6.46-3.73 7.97-4.62 13.6l-.62 4.43h-38.1l.68-5.61c1.35-11.14 3.41-19.03 6.48-24.83 10.54-20.39 31.77-30.75 63.08-30.75 26.11 0 44.63 8.23 53.26 15.94 5.31 4.6 9.1 9.84 11.89 16.46 5.84 12.36 6.32 20.63 6.32 29.4v86.43c0 8.07.78 14.97 2.31 20.5l1.76 6.35h-38.91l-.7-4.19c-.5-2.96-.67-19.75-.88-26.23-8.99 23.61-28.27 33.18-52.21 33.18zm50.53-93.72c-7.97 6.11-20.47 9.6-38.62 13.23-31.27 5.78-36.54 13.06-36.54 27.22 0 12.5 10.63 20.26 27.75 20.26 33.23 0 47.41-15.48 47.41-51.77v-8.94zm124.2-105.51C688.46 64.19 660 35.73 660 .62c0 35.11-28.46 63.57-63.57 63.57h0c35.11 0 63.57 28.46 63.57 63.57h0c0-35.11 28.46-63.57 63.57-63.57z"
+          />
+        </svg>
+        <h1>
+          Delightful <br />
+          events <br />
+          <span class="gradient">start here.</span>
+        </h1>
+        <p>
+          Set up an event page, invite friends and <br />
+          sell tickets. Host a memorable event <br />
+          today.
+        </p>
+        <button class="cursor">Create Your First Event</button>
+      </div>
+      <div class="right">
+        <video
+          src="https://cdn.lu.ma/landing/phone-dark.webm"
+          autoplay
+          muted
+          loop
+        ></video>
+      </div>
+    </main>
+
+    <!-- 
+        MARK: Footer
+    -->
+    <footer>
+      <div class="primary flex justify-between">
+        <div class="text-links flex">
+          <svg
+            class="icon cursor"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 724 264"
+          >
+            <path
+              d="M38.53 260.65H.43V27.86h38.1zm86.46 2.77c-42.25 0-66.48-22.96-66.48-63V89.33h38.1v108.28c0 23.61 8.7 32.39 32.12 32.39 30.35 0 42.73-14.54 42.73-50.17v-90.5h38.1v171.33h-36.54v-29.91c-4.99 22.98-27.12 32.67-48.03 32.67zm347.2-2.77H434.4V149.87c0-22.5-7.01-30.87-25.88-30.87-24.28 0-37.11 14.45-37.11 41.79v99.86h-37.79V149.87c0-21.93-7.23-30.87-24.94-30.87-31.59 0-38.05 32.96-38.05 41.79v99.86h-38.1V89.33h36.54v29.96c6.49-21.02 27.02-33.71 47.72-33.71 20.69 0 38.09 7.9 45.64 33.71 10.13-26.76 28.35-33.71 50.15-33.71 37.88 0 59.61 18.88 59.61 51.81v123.26h0zm76.65 2.77c-52.62 0-61.55-33.45-61.55-50.52 0-20.1 8.83-38.21 27.93-45.55 8.41-3.11 16.52-5.43 24.84-7.1 7.33-1.47 18.64-3.03 26.91-4.17l2.73-.38c14.38-2 29.67-9.21 29.67-18.62 0-16-20.51-18.39-32.74-18.39-13.87 0-23.64 3.57-27.53 10.05-3.49 6.46-3.73 7.97-4.62 13.6l-.62 4.43h-38.1l.68-5.61c1.35-11.14 3.41-19.03 6.48-24.83 10.54-20.39 31.77-30.75 63.08-30.75 26.11 0 44.63 8.23 53.26 15.94 5.31 4.6 9.1 9.84 11.89 16.46 5.84 12.36 6.32 20.63 6.32 29.4v86.43c0 8.07.78 14.97 2.31 20.5l1.76 6.35h-38.91l-.7-4.19c-.5-2.96-.67-19.75-.88-26.23-8.99 23.61-28.27 33.18-52.21 33.18zm50.53-93.72c-7.97 6.11-20.47 9.6-38.62 13.23-31.27 5.78-36.54 13.06-36.54 27.22 0 12.5 10.63 20.26 27.75 20.26 33.23 0 47.41-15.48 47.41-51.77v-8.94zm124.2-105.51C688.46 64.19 660 35.73 660 .62c0 35.11-28.46 63.57-63.57 63.57h0c35.11 0 63.57 28.46 63.57 63.57h0c0-35.11 28.46-63.57 63.57-63.57z"
+            />
+          </svg>
+          <a href="#">What's New</a>
+          <a href="#">Discover</a>
+          <a href="#">Pricing</a>
+          <a href="#">Help</a>
+        </div>
+        <div class="icon-links">
+          <a href="#"><i class="ti ti-mail"></i></a>
+          <a href="#"><i class="ti ti-brand-appstore"></i></a>
+          <a href="#"><i class="ti ti-brand-x"></i></a>
+          <a href="#"><i class="ti ti-brand-instagram"></i></a>
+        </div>
+      </div>
+      <div class="secondary flex">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Security</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
